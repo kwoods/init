@@ -2,8 +2,10 @@
 
 # Trigger this script using the following:
 # /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/kwoods/init/master/init)"
+# OR
+# /usr/bin/ruby -e "$(curl -fsSL https://bit.ly/kwoods-init)"
 
-WORKSPACE = Dir.home + "/workspace2"
+WORKSPACE = Dir.home + "/workspaces"
 
 module Tty
   module_function
